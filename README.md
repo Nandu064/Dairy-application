@@ -64,7 +64,7 @@ FOREIGN KEY(diaryId) REFERENCES diary(diaryId)
 ## To list the tables in the database.
 
 show tables in DATABASE diary_app;
-
+ 
 
 
 
