@@ -14,9 +14,9 @@ Relation Diagram
 
 
 
-Commands to create Databases and tables
+## Commands to create Databases and tables
 
-## commands top create data base
+## commands to create data base
 
 CREATE DATABASE diary_app;
 
