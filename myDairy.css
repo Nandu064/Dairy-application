@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    /* border: 0; */
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #F6EFE8;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: gray; */
+    align-items: center;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 16px;
+    background-color: transparent;
+    padding: 12px 8px;
+}
+
+.header a:hover {
+    color: #000;
+    text-decoration: underline;
+    /* background-color: #ccc; */
+}
+
+.handle_btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border-top-left-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;
+    background: #601E69;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.dairy_container{
+    width: 500px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
