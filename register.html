@@ -57,7 +57,7 @@
                     <div class="right_content">
 
                         <h1 class="signUpHeading">Sign Up</h1>
-                        <form>
+                        <form id="register_form">
                             
                             <div class="input-group">
 
@@ -72,7 +72,7 @@
 
                                     </span>
                                     <input type="text" class="form-control" aria-label="Sizing example input"
-                                        aria-describedby="inputGroup-sizing-sm" name="first_name" placeholder="First Name">
+                                        aria-describedby="inputGroup-sizing-sm" name="first_name" id="firstName" placeholder="First Name">
                                 </div>
                                 <div class="input-group input-group-sm mb-3 form-field">
                                     <span class="input-group-text" id="inputGroup-sizing-sm">
@@ -85,7 +85,7 @@
 
                                     </span>
                                     <input type="text" class="form-control" aria-label="Sizing example input"
-                                        aria-describedby="inputGroup-sizing-sm" name="last_name" placeholder="Last Name">
+                                        aria-describedby="inputGroup-sizing-sm" name="last_name" id="lastName" placeholder="Last Name">
                                 </div>
                                 
                                 <div class="input-group input-group-sm mb-3 form-field">
@@ -99,7 +99,7 @@
 
                                     </span>
                                     <input type="email" class="form-control" aria-label="Sizing example input"
-                                        aria-describedby="inputGroup-sizing-sm" placeholder="Email" name="email">
+                                        aria-describedby="inputGroup-sizing-sm" placeholder="Email" id="email" name="email">
                                 </div>
                                 <div class="input-group input-group-sm mb-3 form-field">
                                     <span class="input-group-text" id="inputGroup-sizing-sm">
@@ -112,7 +112,7 @@
                                         </svg>
 
                                     </span>
-                                    <input type="password" class="form-control" aria-label="Sizing example input"
+                                    <input type="password" class="form-control" aria-label="Sizing example input" id="password"
                                         aria-describedby="inputGroup-sizing-sm" name="password" placeholder="Password">
                                 </div>
                                 <button type="submit" class="sign_up">Sign Up</button>
@@ -128,6 +128,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+
+    <script src="./js/register.js"></script>
 
 </body>
 
